@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wechatsample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+      <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application
+        android:name="cn.heart.app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.heart.main.controller.AppstartActivity"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.LoginActivity"
+            android:label="@string/login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.RegisterActivity"
+            android:label="@string/register"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.MeasureActivity"
+            android:label="@string/measureing"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.ShowResultActivity"
+            android:label="@string/result_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.ShowActivity"
+            android:label="@string/result_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.ManageSetActivity"
+            android:label="@string/family_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.controller.UserDetailActivity"
+            android:label="@string/one_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="cn.heart.main.activity.SwitchUserActivity"
+            android:label="@string/switch_user"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.heart.main.activity.FamilyListActivity"
+            android:label="@string/family_groups"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="cn.heart.main.controller.AccountSetActivity"
+            android:label="@string/account_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="cn.heart.main.activity.PassSetActivity"
+            android:label="@string/modify_password"
+            android:screenOrientation="portrait" > 
+        </activity>
+        <activity
+            android:name="cn.heart.main.activity.AboutAppActivity"
+            android:label="@string/about_app"
+            android:screenOrientation="portrait" > 
+        </activity>
+        <activity
+            android:name="cn.heart.main.activity.MeaGuideActivity"
+            android:label="@string/measure_guide"
+            android:screenOrientation="portrait" > 
+        </activity>
+        <activity
+            android:name="cn.heart.main.activity.ContactUsActivity"
+            android:label="@string/contact_us"
+            android:screenOrientation="portrait" > 
+        </activity>
+        <activity
+            android:name="cn.heart.main.activity.ProjectIntroActivity"
+            android:label="@string/project_introduce"
+            android:screenOrientation="portrait" > 
+        </activity>
+         <activity
+            android:name="cn.heart.activities.ECGActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+         <activity
+            android:name="cn.heart.main.activity.BoothSetActivity"
+            android:label="@string/title_activity_setting" 
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <service android:name="cn.heart.bluetooth.BluetoothTalkService" >
+        </service>
+        <service android:name="cn.heart.task.TaskService" >
+        </service>
+    </application>
+
+</manifest>

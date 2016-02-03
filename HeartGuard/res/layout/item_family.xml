@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgreys" >
+
+    <RelativeLayout
+        android:id="@+id/rlyt_item_if"
+        android:layout_width="fill_parent"
+        android:layout_height="59.5dp"
+        android:background="@color/snow"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="59.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/mediumgreys" >
+        </View>
+
+        <cn.heart.view.CircleImageView
+            android:id="@+id/civ_head_if"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_head"
+            app:border_color="@color/flowerblue"
+            app:border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tv_nick_if"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/civ_head_if"
+            android:text="@string/nick"
+            android:textColor="@color/dimgrey"
+            android:textSize="18sp" />
+
+        <ImageView 
+            android:id="@+id/iv_next_if"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@+id/one_detail"
+            android:src="@drawable/ic_right" />
+    </RelativeLayout>
+
+</LinearLayout>

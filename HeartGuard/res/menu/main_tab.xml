@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto" >
+
+    <!--
+    <item
+        android:id="@+id/action_album"
+        android:icon="@drawable/ofm_photo_icon"
+        android:title="@string/action_album"/>
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/ofm_collect_icon"
+        android:title="@string/action_collection"/>
+    <item
+        android:id="@+id/action_card"
+        android:icon="@drawable/ofm_card_icon"
+        android:title="@string/action_card"/>
+    -->
+
+    <item
+        android:id="@+id/family"
+        android:icon="@drawable/ic_family"
+        android:showAsAction="always">
+    </item>
+
+</menu>

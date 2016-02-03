@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_container"
+    android:layout_width="130dip"
+    android:layout_height="38dip"
+    android:background="@drawable/bg_list_dark" >
+
+    <ImageView
+        android:id="@+id/iv_switch_cursor"
+        android:layout_width="65dip"
+        android:layout_height="38dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0.5dip"
+        android:layout_marginRight="0.5dip"
+        android:background="@drawable/bg_list_blue" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/switch_text_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/dimgrey"
+            android:text="@string/on" />
+
+        <TextView
+            android:id="@+id/switch_text_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/dimgrey"
+            android:text="@string/off" />
+    </LinearLayout>
+
+</RelativeLayout>

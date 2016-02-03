@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnername">
+        <item>data</item>
+        <item>MLII_100_0-10s</item>
+        <item>MLII_105_0-1min</item>
+        <item>MLII_106_0-1min</item>
+        <item>MLII_106_2-3min</item>
+        <item>MLII_107_0-1min</item>
+        <item>MLII_107_2-3min</item>
+        <item>MLII_108_0-1min</item>
+        <item>MLII_108_2-3min</item>
+        <item>MLII_109_0-1min</item>
+        <item>MLII_111_0-1min</item>
+        <item>MLII_112_0-1min</item>
+        <item>MLII_113_2-3min</item>
+        <item>MLII_115_0-1min</item>
+        <item>MLII_116_0-1min</item>
+        <item>MLII_117_0-1min</item>
+        <item>MLII_118_0-1min</item>
+        <item>MLII_119_1-2min</item>
+        <item>MLII_121_0-1min</item>
+        <item>MLII_122_2-3min</item>
+    </string-array>
+
+</resources>

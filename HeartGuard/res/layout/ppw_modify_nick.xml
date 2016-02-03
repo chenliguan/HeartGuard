@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/snow"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/modifynick"
+            android:textColor="@color/dimgrey"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/modifynick"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_login"
+            android:drawableLeft="@drawable/ic_username"
+            android:textColor="@color/dimgrey"
+            android:inputType="text"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="96dp"
+        android:background="@color/mediumgreys" >
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/ok"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="97dp"
+        android:background="@drawable/ppw_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/oks"
+            android:textColor="@color/dimgrey"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

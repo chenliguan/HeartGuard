@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/snow"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/find_password"
+            android:textColor="@color/dimgrey"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_find_user"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/edittext_login"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_undo"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button_login_bg"
+        android:gravity="center"
+        android:text="@string/undo"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button_login_bg"
+        android:gravity="center"
+        android:text="@string/ok"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

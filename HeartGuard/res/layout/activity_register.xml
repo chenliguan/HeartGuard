@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/lightgreys"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <!-- 此Activity采用线性布局 -->
+
+        <LinearLayout
+            android:id="@+id/llyt_all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/tv_heartguard"
+                android:layout_width="fill_parent"
+                android:layout_height="90dip"
+                android:gravity="center_horizontal"
+                android:text="@string/HeartGuard"
+                android:textColor="@color/Yblue"
+                android:textSize="55sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_nick_ar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/edittext_register"
+                    android:drawableLeft="@drawable/ic_nick"
+                    android:hint="@string/nick"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_user_ar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/edittext_register"
+                    android:drawableLeft="@drawable/ic_username"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"
+                    android:textSize="18sp" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_pass_ar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/edittext_register"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:typeface="normal" 
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_hide_ar"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:contentDescription="@+id/hide"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_hide" />
+
+                    <ImageView
+                        android:id="@+id/iv_show_ar"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:contentDescription="@+id/show"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_show"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_width="fill_parent"
+                android:layout_height="25.0dip"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:text="@string/get_code"
+                android:textColor="@color/Yblue"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/edittext_register"
+                    android:drawableLeft="@drawable/ic_code"
+                    android:hint="@string/code"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llyt_all"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button_regist_bg"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</RelativeLayout>

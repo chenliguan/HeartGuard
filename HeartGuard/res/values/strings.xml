@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 功能 -->
+    <string name="app_name">智能云心电仪</string>
+    <string name="app_name_edition">智能云心电仪 1.0</string>
+    <string name="family_detail">家庭信息</string>
+    <string name="one_detail">个人信息</string>
+    <string name="result_detail">诊断报告</string>
+    <string name="measureing">测量中</string>
+    <string name="action_search">搜索</string>
+    <string name="action_plus">功能</string>
+    <string name="action_album">我的相册</string>
+    <string name="action_collection">我的收藏</string>
+    <string name="action_card">我的银行卡</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feed">意见反馈</string>
+    <string name="plus_group_chat">发起群聊</string>
+    <string name="plus_add_friend">添加朋友</string>
+    <string name="plus_video_chat">视频聊天</string>
+    <string name="plus_scan">扫一扫</string>
+    <string name="plus_take_photo">拍照分享</string>
+    <string name="details">详情</string>
+    <string name="family_setting">家庭圈设置</string>
+    <string name="switch_user">切换用户</string>
+    <string name="family_group">家人信息</string>
+    <string name="family_groups">家庭成员信息</string>
+    <string name="add_family">添加家人</string>
+    <string name="account_setting">账户设置</string>
+    <string name="my_ecgsensor">我的心电仪</string>
+    <string name="upload_photo">拍照上传</string>
+    <string name="upload_album">相册上传</string>
+    <string name="family_id">家庭ID号</string>
+    <string name="remember_password">记住密码</string>
+    <string name="automatic_login">自动登录</string>
+    <string name="modify_password">修改密码</string>
+    <string name="about_app">关于智能云心电仪</string>
+    <string name="measure_guide">测量指导</string>
+    <string name="contact_us">联系我们</string>
+    <string name="project_introduce">项目介绍</string>
+ 
+    <!-- 文本描述 -->
+    <string name="text_user_name">user</string>
+    <string name="text_username">账号</string>
+    <string name="text_family">家庭群号</string>
+    <string name="text_head">头像</string>
+    <string name="text_nick">昵称</string>
+    <string name="text_gender">性别</string>
+    <string name="text_birthday">生日</string>
+    <string name="text_rate">心率</string>
+    <string name="text_high">身高</string>
+    <string name="text_weight">体重</string>
+    <string name="text_group">群主:</string>
+    <string name="text_rate_time">(次/分)</string>
+    <string name="text_whole_time">2000年00月00日   00:00:00</string>
+    <string name="text_grade">得分:</string>
+    <string name="text_rhythm">心律</string>
+    <string name="text_RR_rate">平均心率(分)</string>
+    <string name="text_rhythm_heart">心律节奏</string>
+    <string name="text_heartbeat_number">心跳个数</string>
+    <string name="text_cardia">心动情况</string>
+    <string name="text_psvc_number">室上性期前收缩</string>
+    <string name="text_pvc_number">室性期前收缩</string>
+    <string name="text_rhythm_pvcnum">期前收缩</string>
+    <string name="text_sinus_arrest">窦性停搏</string>
+    <string name="text_heart">心房</string>
+    <string name="text_loadstatus">严重程度:</string>
+    <string name="text_lao">左房负荷增重</string>
+    <string name="text_rao">右房负荷增重</string>
+    <string name="text_bao">两房负荷增重</string>
+    <string name="text_tendency">最近十天测量趋势图</string>
+    <string name="text_report">报告解读</string>
+    <string name="text_rhythm_symptoms">心律病症</string>
+    <string name="text_heart_symptoms">心房病症</string>
+
+    <!-- result -->
+    <string name="grade">00</string>
+    <string name="rate">00</string>
+    <string name="rate_average">00次</string>
+    <string name="good">正常</string>
+    <string name="health">健康</string>
+    <string name="symptoms_rhythm_health">健康</string>
+    <string name="symptoms_rhythm_pc">期前收缩</string>
+    <string name="symptoms_rhythm_psvc">室上性期前收缩</string>
+    <string name="symptoms_rhythm_pvc">室性期前收缩</string>
+    <string name="rhythm_good">整齐 </string>
+    <string name="rhythm_little_bit">稍微不齐</string>
+    <string name="rhythm_shif">不整齐</string>
+    <string name="tachycardia">心动过速</string>
+    <string name="bradycardia">心动过缓</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="heartbeat_number">45个</string>
+    <string name="psvc_number">0个</string>
+    <string name="pvc_number">0个</string>
+    <string name="loadnice">无症状</string>
+    <string name="loadbit">较轻</string>
+    <string name="loadbad">严重</string>
+    <string name="loadshit">非常严重</string>
+    <string name="lao">左房负荷增重</string>
+    <string name="rao">右房负荷增重</string>
+    <string name="bao">两房负荷增重</string>
+
+    <!-- button -->
+    <string name="button_read_result">看结果</string>
+    <string name="button_out_login">退出登录</string>
+    <string name="button_delete">删除此家人</string>
+
+    <!-- other -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="ok_new_password">确认新密码</string>
+    <string name="quick_register">快速注册</string>
+    <string name="remember">记住密码</string>
+    <string name="forget">忘记密码？</string>
+    <string name="phone_number">手机号码</string>
+    <string name="password">密码</string>
+     <string name="local_user">当前用户:</string>
+    <string name="nick">昵称</string>
+    <string name="email">邮箱</string>
+    <string name="code">验证码</string>
+    <string name="get_code">获取验证码</string>
+    <string name="HeartGuard">HeartGuard</string>
+    <string name="change_user">点击可以切换当前用户</string>
+    <string name="find_password">请输入要找回密码的手机号码</string>
+    <string name="modifynick">好名字可以让你的朋友更容易记住你喔</string>
+    <string name="modifyhigh">输入您的身高喔</string>
+    <string name="modifyweight">输入您的体重喔</string>
+    <string name="ok">确定</string>
+    <string name="undo">取消</string>
+    <string name="oks">完成</string>
+    <string name="gender">男</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="birthday">1970年1月1日</string>
+    <string name="high">170cm</string>
+    <string name="weight">60.0kg</string>
+    <string name="username">user</string>
+    <string name="id">00000000000</string>
+    <string name="edition1">东莞理工学院 版权所有</string>
+    <string name="edition2">Copyright © 2013-2015</string>
+    <string name="edition3">All Rights Reserved</string>
+    <string name="qq">QQ：1130314814</string>
+    <string name="phone">手机号码：13751338740</string>
+    
+    <!-- 蓝牙连接 -->
+    <string name="err_device_msg">您的设备不支持该系统，请选择华清远见专用平台。 \nwww.farsight.com.cn</string>
+    <string name="main_act_name">用户名：</string>
+    <string name="main_act_hint_name">请输入用户名或刷医师工作卡</string>
+    <string name="main_act_passwd">密　码：</string>
+    <string name="main_act_hint_passwd">请输入密码</string>
+    <string name="main_act_login">　登 录　</string>
+    <string name="login_dlg_title">正在登录...</string>
+
+    <!-- 系统设置 -->
+    <!-- WebService Settings -->
+    <string name="WebServicePathKey">WebService_Path_setting</string>
+    <string name="WebServicePathDefaultValue">http://www.farsightdev.com/IMServices.asmx</string>
+    <string name="checkupdateurl">http://www.farsightdev.com/appupdate/update.xml</string>
+    <string name="bt_device_not_set_error_title">蓝牙设备未设置</string>
+    <string name="bt_device_not_set_error_msg">有未配置的蓝牙设备，点击“系统设置”进行连接配对！</string>
+    <string name="bt_device_not_set_error_msg2">当前连接的蓝牙设备未配置，点击“系统设置”进行连接配对！</string>
+    <string name="task_not_sync_title">任务未同步</string>
+    <string name="task_not_sync_msg">检测任务未同步，点击“统计数据”同步新任务！</string>
+
+    <!-- 关于 -->
+    <string name="settings_about_title">关于智能医疗</string>
+    <string name="settings_btn_update_title">在线更新</string>
+    <string name="settings_btn_function_title">功能介绍</string>
+
+    <!-- PIN Settings -->
+    <string name="EcgPinKey">key_ecg_pin</string>
+    <string name="EcgPinTitle">心电蓝牙配对密码设置</string>
+    <string name="EcgPinDefault">0438</string>
+    <string name="BloodPresPinKey">key_blood_press_pin</string>
+    <string name="BloodPresPinTitle">血压蓝牙配对密码设置</string>
+    <string name="BloodPresPinDefault">0438</string>
+    <string name="TempertureKey">key_body_temperature_pin</string>
+    <string name="TempertureTitle">体温蓝牙配对密码设置</string>
+    <string name="TempertureDefault">1000</string>
+    <string name="CodeScannerKey">key_code_scanner_pin</string>
+    <string name="CodeScannerTitle">扫描枪配对密码设置</string>
+    <string name="CodeScannerDefault">10010</string>
+
+    <!-- ECG Settings -->
+    <string name="ECGSettingsKey">key_ECG_setting</string>
+    <string name="ECGSettingsDefaultValue">12</string>
+
+    <string-array name="ECGDuration">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="functionSettingsKey">key_function_settings</string>
+    <string name="functionSettings">功能设置</string>
+
+    <!-- 返回 -->
+    <string name="backKey">backKey</string>
+    <string name="backTitle">返回</string>
+
+    <!-- ECG  Settings -->
+    <string name="ECGErrorTitle">心电采集时间设置错误</string>
+    <string name="ECGError">心电采集时间设置最少为12秒,设置为默认值12秒。</string>
+    <string name="ECGSettings">心电设置</string>
+    <string name="ECGDurationTitle">心电采集时间设置</string>
+
+    <!-- activity_ecg_result.xml -->
+    <string name="ECGResult_textViewTitle">小张：本次心电检测结果</string>
+    <string name="ECGResult_Expert">专家说：正常</string>
+
+    <!-- activity_main.xml -->
+    <string name="SelPaient">患者选择</string>
+    <string name="TotalData">数据统计</string>
+    <string name="SysSettings">系统设置</string>
+    <string name="SysExit">退出系统</string>
+
+    <!-- activity_pick_patient.xml -->
+    <string name="editTextSearch">请输入要搜索的用户名</string>
+
+    <!-- activity_task.xml -->
+    <string name="ecg_check">心电检测</string>
+    <string name="bp_check">血压检测</string>
+    <string name="temp_check">体温检测</string>
+    <string name="enter">确  定</string>
+
+    <!-- activity_temp.xml -->
+    <string name="temp_textViewTitle">正在连接设备，请确认已经打开体温计...</string>
+    <string name="start_check">开始采集</string>
+    <string name="error_temp_textViewTitle">体温采集出错：</string>
+    <string name="finish_temp_textViewTitle">体温采集完毕：</string>
+
+    <!-- activity_bp.xml -->
+    <string name="bp_textViewTitle">正在连接设备，请确认已经打开血压计...</string>
+    <string name="error_bp_textViewTitle">血压采集出错：</string>
+    <string name="finish_bp_textViewTitle">血压采集完毕：</string>
+    <string name="leak_check_textViewTitle">正在进行漏气检测。。。</string>
+    <string name="realtime_result_textViewTitle">实时压力数据:</string>
+
+    <!-- pick_patient_list_item.xml -->
+    <string name="list_item_no"> No </string>
+    <string name="list_item_name"> 患者名   </string>
+    <string name="list_item_tel"> 联 系 方 式   </string>
+    <string name="list_item_age"> 出生日期   </string>
+    <string name="list_item_add"> 住    址   </string>
+    <string name="list_item_status">状 态   </string>
+
+    <!-- 患者详情页面 -->
+    <string name="patient_title">患者详细信息</string>
+    <string name="btn_sure">确	定</string>
+    <string name="btn_cancel">取	消</string>
+    <string name="btn_setting">设   置</string>
+    <string name="pressure_result_title">血压检测结果</string>
+    <string name="glucose_result_title">血糖检测结果</string>
+    <string name="ECG_result_title">心电检测结果</string>
+    <string name="temperature_result_title">体温检测结果</string>
+    <string name="task_actiivty_title">患者任务选择</string>
+    <string name="ecg_history_result_actiivty_title">心电数据统计</string>
+    <string name="ecg_activity_coonect_msg">正在连接心电设备，请稍候...</string>
+    <string name="ecg_activity_write_db_msg">正在写入心电数据，请稍候...</string>
+
+    <!-- 心电历史记录Activity -->
+    <string name="ecg_history_activity_title">按时间统计心电数据:</string>
+
+    <!-- activity_patient_result 专家建议 -->
+    <string name="patient_result_activity_title">专家建议:</string>
+
+    <!-- 患者血压采集Activity -->
+    <string name="pressure_result_activity_hp">收缩压:</string>
+    <string name="pressure_result_activity_lp">舒张压:</string>
+
+    <!-- 心电系统设置layout -->
+    <string name="bt_device_settings_pin_code_title">选择心电蓝牙设备</string>
+    <string name="bt_device_settings_pin_code_input">请输入配对码</string>
+
+    <!-- 心电系统设置 list item -->
+    <string name="bt_device_settings_bonded">已绑定</string>
+
+    <!-- 心电系统设置 frame1 -->
+    <string name="bt_device_settings_frame1_svr_addr">服务器地址：</string>
+    <!-- 心电系统设置 frame2 -->
+    <string name="bt_device_settings_frame2_search">搜索蓝牙设备</string>
+    <string name="bt_device_settings_frame2_set_pin">选择蓝牙设备并设置配对密码</string>
+    <string name="bt_device_settings_frame2_found_device">扫描到的蓝牙设备</string>
+    <!-- 心电系统设置 frame3 -->
+    <string name="bt_device_settings_frame3_ecg_duration">心电时间：</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

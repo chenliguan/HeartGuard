@@ -1,0 +1,26 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/bt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"/>
+
+ 	<TextView
+ 	    android:id="@+id/bt_state"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentRight="true"
+ 	    android:layout_centerVertical="true"
+ 	    android:paddingRight="10dp"
+ 	    android:text="@string/bt_device_settings_bonded"
+ 	    android:textSize="16sp" />
+    
+</RelativeLayout>

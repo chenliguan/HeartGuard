@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 指定按钮按钮下时的图片 -->
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <solid android:color="#5785d5" />
+
+            <padding android:bottom="3dp" android:left="1dp" android:right="1dp" android:top="3dp" />
+
+            <stroke android:width="1px" android:color="#6495ed" />
+        </shape></item>
+
+    <!-- 指定按钮松开时的图片 -->
+    <item><shape android:shape="rectangle">
+            <solid android:color="#6395ec" />
+
+            <padding android:bottom="3dp" android:left="1dp" android:right="1dp" android:top="3dp" />
+
+            <stroke android:width="1px" android:color="#6495ed" />
+        </shape></item>
+
+</selector>

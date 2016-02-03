@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rlyt_item_iu"
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:layout_centerHorizontal="true">
+
+        <cn.heart.view.CircleImageView
+            android:id="@+id/civ_head_iu"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/ic_head"
+            app:border_color="@color/flowerblue"
+            app:border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tv_nick_iu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/civ_head_iu"
+            android:text="@string/nick"
+            android:textColor="@color/snow"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
